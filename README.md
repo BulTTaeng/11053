@@ -14,9 +14,9 @@ dynamic programming
 
 ## What was the key point and the hard part?
 
-I tried to think it with greedy, but it was very complex.
-After that I tried to think that saving the maximum value until now make sense.
-So I write down the possible cases, and I notice that there is only 2 option before I step on to some stair.
+I notice that greedy algorithm will not work.
+I see that the number of N is not that big (1000), so using more time complexity will not make a problem.
+I solve it with O(N^2), but I think there will be more faster way to solve this problem.
 
 ## Where can I get more help, if I need it?
 
